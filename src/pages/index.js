@@ -4,8 +4,8 @@ import Layout from "../components/layout";
 
 const HomePage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby Tutorial.</p>
+    <Layout pageTitle="Home" pageHeading="Home page">
+      <p>The first draft is just you telling yourself the story.</p>
     </Layout>
   );
 };

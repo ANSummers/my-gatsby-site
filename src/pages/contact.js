@@ -4,9 +4,10 @@ import Layout from "../components/layout";
 
 const ContactPage = () => {
   return (
-    <Layout pageTitle="Contact Page">
+    <Layout pageTitle="Contact" pageHeading="Contact page">
       <p>
-        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+        You might be the sweetest peach on a tree, but some people just don't
+        like peaches.
       </p>
     </Layout>
   );

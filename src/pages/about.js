@@ -3,9 +3,10 @@ import Layout from "../components/layout";
 
 const AboutPage = () => {
   return (
-    <Layout pageTitle="About Me">
+    <Layout pageTitle="About" pageHeading="About me">
       <p>
-        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+        You don't notice your progress in life because you are always raising
+        the bar.
       </p>
     </Layout>
   );
