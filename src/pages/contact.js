@@ -1,6 +1,6 @@
 import * as React from "react";
-
 import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 const ContactPage = () => {
   return (
@@ -9,6 +9,10 @@ const ContactPage = () => {
         You might be the sweetest peach on a tree, but some people just don't
         like peaches.
       </p>
+      <StaticImage
+        alt="A very cute cat is sitting in a cardboard box."
+        src="../images/catinabox.jpg"
+      />
     </Layout>
   );
 };
