@@ -5,6 +5,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const HomePage = () => {
   return (
     <Layout pageTitle="Home" pageHeading="Home page">
+      <p>Learning the Gatsby React framework in true cat lady fashion.</p>
       <p>The first draft is just you telling yourself the story.</p>
       <StaticImage
         alt="a cat enjoying the sunshine on an orange beach towel."
